@@ -16,6 +16,11 @@ def multiply(first: float, second: float) -> float:
     return first * second
 
 
+def power(first: float, second: float) -> float:
+    """Возвращает результат возведения первого числа в степень второго."""
+    return first**second
+
+
 def divide(first: float, second: float) -> float:
     """Возвращает частное двух чисел."""
     if second == 0:
